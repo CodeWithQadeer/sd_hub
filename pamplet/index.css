@@ -1,0 +1,63 @@
+body{
+    background-image:url("images/background.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.menu {
+    background-color: bisque;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    font-size: larger;
+
+}
+
+h1{
+    font-style: italic;
+    text-align: center;
+}
+h2{
+    font-style: italic;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+
+li span {
+    font-weight: bold;  
+    min-width: 50px;  
+    text-align: right;  
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+}
+
+.est{
+    text-align: center;
+    font-weight: bold;
+}
+
+hr{
+    border-color: brown;
+}
+
+.endLine{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
